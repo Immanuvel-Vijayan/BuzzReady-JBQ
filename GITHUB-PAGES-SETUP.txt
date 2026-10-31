@@ -1,0 +1,36 @@
+BuzzReady — put it online with GitHub Pages (free)
+===================================================
+
+You are uploading the FILES INSIDE this folder (index.html must end up at the
+top level of your repository, not inside another folder).
+
+1. Make a free account at https://github.com if you don't have one.
+
+2. Create a new repository:
+   - Click the + (top right) > New repository.
+   - Name it, e.g.  buzzready
+   - Choose Public.
+   - Click Create repository.
+
+3. Upload these files:
+   - On the new repo page, click "uploading an existing file".
+   - Select ALL the files and folders from inside this zip
+     (index.html, manifest.webmanifest, sw.js, the icons folder,
+      the fonts folder, fonts.css) and drag them in.
+   - Click "Commit changes".
+
+4. Turn on GitHub Pages:
+   - In the repo, go to Settings > Pages.
+   - Under "Build and deployment", Source = "Deploy from a branch".
+   - Branch = main, folder = / (root). Click Save.
+   - Wait about 1 minute, then refresh. The page shows your address:
+       https://YOURNAME.github.io/buzzready/
+
+5. Open that address on a phone to test. On iPhone: Safari > Share >
+   Add to Home Screen. On Android: Chrome > Install app.
+
+6. Send me that https://YOURNAME.github.io/buzzready/ address and I will
+   lock the app to it and scramble the code so a copied file won't run.
+
+Updating later: upload a new index.html (and bump the version) the same way;
+everyone gets the update next time they open it.

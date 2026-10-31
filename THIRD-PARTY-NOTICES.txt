@@ -1,0 +1,14 @@
+BuzzReady · third-party notices
+
+Fonts (bundled in the web app / store packages, used under the SIL Open Font License 1.1, which allows commercial apps):
+  Outfit · IBM Plex Sans · IBM Plex Mono · Literata · Carlito · Poppins (logo tagline)
+  License text: https://openfontlicense.org
+
+Interface icons (settings gear, filter, share, sound, bin, drag handle): simple line icons drawn in the style of
+Feather Icons; the settings gear follows the Feather "settings" icon (MIT License, (c) Cole Bemis).
+  MIT License: https://github.com/feathericons/feather/blob/main/LICENSE
+
+Emoji (🏠 🎮 ⭐ 🐝 and others) are standard Unicode characters. The app ships no emoji images:
+each phone or computer draws them with its own system emoji font.
+
+Logo and app icon: the BuzzReady logo was supplied by the owner; the app icon brain-and-cross mark was redrawn from it.
