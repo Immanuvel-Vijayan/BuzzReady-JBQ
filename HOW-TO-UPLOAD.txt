@@ -1,22 +1,25 @@
-BuzzReady — protected build (locked to immanuvel-vijayan.github.io)
-==================================================================
+BuzzReady — encrypted + domain-locked build
+============================================
 
-This index.html is scrambled and will only run from your GitHub Pages
-address. A copy opened from anywhere else shows a blank page.
+This index.html is ENCRYPTED. It only decrypts and runs on your own site:
+  https://immanuvel-vijayan.github.io/BuzzReady-JBQ/
+A copy opened anywhere else (another site, or the file double-clicked from
+your computer) shows a blank page - there is no readable app code to copy.
 
-To put it live, upload these TWO files to your repo, overwriting the old ones:
-  - index.html   (the protected app)
+Upload these TWO files to your repo, overwriting the old ones:
+  - index.html   (encrypted app)
   - sw.js        (version bumped so phones fetch the new copy)
 
-In your repo (github.com/Immanuvel-Vijayan/BuzzReady-JBQ):
-  1. Click "Add file" > "Upload files".
+Steps:
+  1. In your repo, Add file > Upload files.
   2. Drag in this index.html and sw.js.
-  3. "Commit changes".
-  4. Wait ~1 minute, then open:
+  3. Commit changes.
+  4. Wait ~1 minute, then open (or hard-refresh):
        https://immanuvel-vijayan.github.io/BuzzReady-JBQ/
-     (If you had it open, close the tab and reopen, or hard-refresh, so the
-      new service worker takes over.)
 
-Keep editing from the readable version, not this one:
-  This file cannot be edited by hand. When you want app changes, I change
-  the readable master and rebuild this protected file for you.
+IMPORTANT:
+  - It runs only over https (your GitHub Pages site is https - good) or on
+    localhost. Double-clicking the file on your computer will NOT run it
+    (no https) - that is expected.
+  - Keep editing from the readable version. This file cannot be edited by
+    hand; when you want changes, I rebuild this encrypted file for you.
