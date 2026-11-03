@@ -1,6 +1,6 @@
 // BuzzReady offline support: keeps the app and its fonts on the device so it opens without internet.
 // Change VERSION whenever you upload a new index.html so phones pick up the update.
-const VERSION = 'buzzready-v67';
+const VERSION = 'buzzready-v68';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png', './fonts.css', './fonts/literata-latin-400-normal.woff2', './fonts/literata-latin-600-normal.woff2', './fonts/literata-latin-700-normal.woff2', './fonts/ibm-plex-sans-latin-400-normal.woff2', './fonts/ibm-plex-sans-latin-500-normal.woff2', './fonts/ibm-plex-sans-latin-600-normal.woff2', './fonts/ibm-plex-mono-latin-500-normal.woff2', './fonts/ibm-plex-mono-latin-600-normal.woff2', './fonts/carlito-latin-400-normal.woff2', './fonts/carlito-latin-700-normal.woff2', './fonts/outfit-latin-800-normal.woff2'];
 
 self.addEventListener('install', e => {
